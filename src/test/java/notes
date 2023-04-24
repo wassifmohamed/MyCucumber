@@ -1,0 +1,3 @@
+features = maps where feature files are locked in our framework
+glue     = maps where class files are locked in our framework
+dryRun   = it checks for every step in feature file
