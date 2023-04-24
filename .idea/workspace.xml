@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f698f095-8ccd-4b7f-926d-2b714a455632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/SmokeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/SmokeRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/CommonMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/SmokeRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/SmokeRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/CommonMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wassi\IdeaProjects\MyCucumber\src\test\resources\Config" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.SmokeRunner (1)">
     <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
