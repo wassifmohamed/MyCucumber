@@ -10,7 +10,7 @@ public class ConfigReader {
     public static Properties readProperties()
     {
         try {
-            FileInputStream file = new FileInputStream("C:\\Users\\wassi\\IdeaProjects\\MyCucumber\\src\\test\\resources\\Config\\Config.properties");
+            FileInputStream file = new FileInputStream(Constants.PROPERTY_FILE_PATH);
             prop = new Properties();
             prop.load(file);
         } catch (FileNotFoundException e) {

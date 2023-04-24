@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f698f095-8ccd-4b7f-926d-2b714a455632" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/AddEmployee.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/CommonMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/CommonMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner/SmokeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner/SmokeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/SmokeRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/SmokeRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Constants.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +64,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SmokeRunner (1)">
-    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: AddEmployee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
-      <option name="GLUE" value="StepDefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/AddEmployee.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBatch15" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="SUGGESTED_NAME" value="Feature: AddEmployee" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Login.feature" />
       <option name="GLUE" value="StepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="MyCucumber" />
+      <module name="CucumberBatch15" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -119,23 +121,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: adding  a new employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/AddEmployee.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBatch15" />
+      <option name="NAME_FILTER" value="^adding  a new employee$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^adding  a new employee$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: adding  a new employee" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestRunner.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestRunner" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner.SmokeRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyCucumber" />
+    <configuration name="SmokeRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBatch15" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestRunner.*" />
@@ -163,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SmokeRunner (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Valid admin login" />
+        <item itemvalue="Cucumber Java.Feature: AddEmployee" />
         <item itemvalue="Cucumber Java.Feature: Login (1)" />
-        <item itemvalue="JUnit.SmokeRunner" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="Cucumber Java.Scenario: adding  a new employee" />
+        <item itemvalue="Cucumber Java.Scenario: Valid admin login" />
       </list>
     </recent_temporary>
   </component>
