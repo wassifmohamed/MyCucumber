@@ -1,5 +1,8 @@
 Feature: Employee
 
+
+
+  @testcase2
   Scenario: adding  a new employee
     Given   open the browser and launch HRMS application
     When    user enters valid email and valid password
